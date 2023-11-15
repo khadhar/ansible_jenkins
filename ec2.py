@@ -4,7 +4,7 @@ import json
 
 def get_aws_ec2_inventory():
     # Replace these variables with your AWS credentials and region
-    aws_region = 'us-east-1'
+    aws_region = 'us-west-1'
 
     ec2 = boto3.client(
         'ec2',
